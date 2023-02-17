@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task Guru</title>
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/task.css">
+    <script src="./js/usr.js"></script>
+    <!-- a<link rel="icon" type="image/x-icon" href="../res/icon.png"> -->
+    <script src="https://kit.fontawesome.com/63483fd584.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="body" class="body flex-center flex-column">
+      <div id="taskheader" class="header">
+        <h1 id="head">
+          <span class="headsect2">Task</span>Guru
+        </h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <div id="main" class="card">
+              <div class="card-content">
+                <span class="card-title">
+                  <span>Task List</span>
+                  <span class="secondary-content" id="currentUser">Guest</span>
+                </span>
+                <!-- Task List -->
+                <ul id="tasklist" class="list"></ul>
+                <div class="flex-center flex-row"><button class="btn deep-orange" id="new-task">Add New Task</button>
+                  <button class="btn deep-orange" id="clear-tasks">Clear Tasks</button>
+                </div>
+                <div class="row">
+                  <form id="task-form">
+                    <div id="addingtaskdiv">
+                      <div class="input-field col s12">
+                        <input type="text" class="input" name="task" id="task">
+                        <label for="task" id="newtasklabel">New Task</label>
+                      </div>
+                      <input type="submit" value="Add Task" class="btn deep-orange">
+                    </div>
+                    <!--    <div id="filtertaskdiv"><h5 id="task-title" class="card-title">Task Title</h5><div class="input-field col s12"><input type="text" class="input" name="filter" id="filter"><label for="task-title"l id="filterlabel">Filter Task</label></div><ul class="collection"></ul><a href="#" class="clear-tasks btn black">CLEAR TASKS</a></div>
+              -->
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p id="info" class="info">BUILD</p>
+    </div>
+    <script src="./js/task.js"></script>
+    <script src="./js/materialize.min.js"></script>
+  </body>
+</html>

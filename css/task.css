@@ -1,0 +1,126 @@
+#body{
+   
+}
+#head{
+   padding:0.3rem;
+   margin-left:0.3rem;
+   margin-top:1rem;
+}
+#taskheader{
+   
+   /*border-left:1rem solid orange;*/
+   background: transparent;
+   margin-bottom:1rem;
+}
+.headsect2{
+   color:#DD6E0F;
+   border:solid #DD6E0F;
+   border-right:0;
+   padding:0.3rem;
+   padding-right:0;
+}
+#empty{
+   height:92vh;
+   border:0.5rem dashed #999;
+   box-sizing:border-box;
+   margin-top:0.5rem;
+   z-index:10;
+}
+#emptytext{
+   text-align:center;
+   color:#ffb22b;
+}
+#greetings{
+   /*text-align:center;*/
+   margin-left:1rem;
+}
+#taskcontainer{
+   width:100%;
+   margin-top:3rem;
+}
+/*.task{
+   width:100%;
+   
+}*/
+.list-items{
+   padding:1.1rem;
+   border:0.2rem solid Orange;
+   border-left:0.2rem solid #DD6E0F;
+   border-bottom:0.2rem solid #DD6E0F;
+   color:#DD6E0F;
+   font-size:1.3rem;
+}
+#add{
+   text-align:center;
+   color:orange;
+}
+#addtaskcont{
+   border: 0.2rem dashed orange;
+   margin:2rem 0.2rem 1rem 0.2rem;
+   
+}
+#newtasklabel{
+   color:#DD6E0F;
+}
+#task{
+   border-color:#DD6E0F;
+   box-shadow: 0px 1px white;
+}
+#task:focus{
+   box-shadow: 0px 2px #DD6E0F;
+}
+.card-title{
+   color:orange;
+   font-weight:800;
+}
+.card-action{
+   margin:0;
+}
+#filterlabel{
+   color:#DD6E0F;
+}
+#filter{
+   border-color:#DD6E0F;
+}
+#filtertaskdiv{
+   margin-top:1rem;
+}
+.input{
+   color:#DD6E0F;
+}
+#addingtaskdiv{
+   display:none;
+}
+#filtertaskdiv{
+   display:none;
+}
+#clear-tasks{
+   margin:auto;
+   margin-top:1rem;
+   width:10rem;
+}
+#new-task{
+   margin:auto;
+   margin-top:1rem;
+   width:10rem;
+}
+#currentUser{
+   color:#DD6E0F;
+}
+.info{
+   font-size:1.5rem;
+   color:#DD6E0F;
+   padding:1rem;
+   transition:2s;
+   position:absolute;
+   bottom:0;
+   right:0;
+   left:0;
+   text-align:center;
+}
+.info:active{
+   transition:2s;
+   border:2px solid whitesmoke;
+   background:#DD6E0F;
+   color:white;
+}
